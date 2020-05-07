@@ -1,0 +1,97 @@
+body{
+    font-style: garamond;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.red{
+    color: #b80404;
+    animation-name: red;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes blue {
+    0% {
+        color: #138c8c;
+    }
+
+    50% {
+        color: #243f71;
+    }
+    100% {
+        color: #138c8c;
+    }
+} */
+
+@keyframes red {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: #b80404;
+    }
+    100% {
+        color: black;
+    }
+}
+
+*{
+    line-height: 10px;
+}
+
+.line1{
+    position: absolute;
+    left: 3%;
+    top: 100px;
+}
+
+#back{
+    position: absolute;
+    left: 28%;
+    top: 250px;
+}
+
+.line2{
+    position: absolute;
+    left: 15%;
+    top: 170px;
+}
+
+.line3{
+    position: absolute;
+    left: 3%;
+    top: 280px;
+}
+
+.line4{
+    position: absolute;
+    left: 70%;
+    top: 500px;
+}
+
+.line5{
+    position: absolute;
+    left: 70%;
+    top: 550px;
+}
+
+.line6{
+    position: absolute;
+    left: 70%;
+    top: 600px;
+}
+
+.line7{
+    position: absolute;
+    left: 70%;
+    top: 650px;
+}
+
+.line8{
+    position: absolute;
+    left: 70%;
+    top: 700px;
+}

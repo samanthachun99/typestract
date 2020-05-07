@@ -1,0 +1,655 @@
+.container1{
+    font-size: 20px;
+    font-style: garamond;
+    background-color: black;
+    color: white;
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    line-height: 10px;
+}
+
+.red1{
+    color: #b80404;
+    animation-name: red1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes red1 {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: #b80404;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.line1{
+    position: absolute;
+    left: 3%;
+    top: 50px;
+
+}
+
+#back{
+    position: absolute;
+    left: 28%;
+    top: 250px;
+}
+
+.line2{
+    position: absolute;
+    left: 15%;
+    top: 120px;
+}
+
+.line3{
+    position: absolute;
+    left: 3%;
+    top: 230px;
+}
+
+.line4{
+    position: absolute;
+    left: 70%;
+    top: 450px;
+}
+
+.line5{
+    position: absolute;
+    left: 70%;
+    top: 500px;
+}
+
+.line6{
+    position: absolute;
+    left: 70%;
+    top: 550px;
+}
+
+.line7{
+    position: absolute;
+    left: 70%;
+    top: 600px;
+}
+
+.line8{
+    position: absolute;
+    left: 70%;
+    top: 650px;
+}
+
+
+/* poem 2 */
+
+.container2{
+    background-color: white;
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    font-family: helvetica;
+
+}
+.poem{
+    font-size: 5px;
+    color: red;
+    width: 1500px;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 750px);
+    text-align: center;
+}
+
+.poem:hover{
+    font-size: 50px;
+    position: absolute;
+    /* top: 1450px; */
+    color: black;
+    line-height: 50px;
+}
+
+
+
+/* poem 3 */
+
+.container3{
+    background-color: black;
+    color: white;
+    font-family: garamond;
+    font-size: 18px;
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 2000px;
+    left: 0px;
+}
+
+.line3a{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 250px;
+    height: 20px;
+}
+
+.line3b{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    height: 20px;
+    width: 70px;
+}
+
+.line3c{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    height: 20px;
+    width: 130px;
+}
+
+.line3d{
+    position: absolute;
+    left: 273px;
+    top: 160px;
+    color: #d41313;
+    height: 20px;
+    width: 40px;
+}
+
+.line3e{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    height: 300px;
+    width: 150px;
+    animation-name: pos1;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pos1 {
+    0% {
+        top: 205px;
+    }
+
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 205px;
+    }
+}
+
+.line3f{
+    position: absolute;
+    left: 345px;
+    top: 200px;
+    height: 300px;
+    width: 180px;
+    animation-name: pos2;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pos2 {
+    0% {
+        top: 200px;
+    }
+
+    50% {
+        top: 205px;
+    }
+    100% {
+        top: 200px;
+    }
+}
+
+.line3g{
+    position: absolute;
+    left: 420px;
+    top: 430px;
+    height: 220px;
+    width: 100px;
+}
+
+.red3a{
+    color: #d41313;
+}
+
+.line3h{
+    position: absolute;
+    left: 520px;
+    top: 430px;
+    height: 220px;
+    width: 50px;
+}
+
+.line3i{
+    position: absolute;
+    left: 1200px;
+    top: 590px;
+    width: 190px;
+    height: 120px;
+    animation-name: pos3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pos3 {
+    0% {
+        left: 1200px;
+    }
+
+    50% {
+        left: 1250px;
+    }
+    100% {
+        left: 1200px;
+    }
+}
+
+.line3j{
+    position: absolute;
+    left: 1300px;
+    top: 625px;
+    width: 125px;
+    height: 130px;
+    animation-name: pos4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pos4 {
+    0% {
+        left: 1400px;
+    }
+
+    50% {
+        left: 1300px;
+    }
+    100% {
+        left: 1400px;
+    }
+}
+
+.red3b{
+    color: #d41313;
+}
+
+.line3k{
+    position: absolute;
+    left: 1200px;
+    top: 780px;
+}
+
+.line11:hover{
+    color: #d41313;
+}
+
+
+/* poem 4 */
+
+.container4{
+    background-color: white;
+    position: absolute;
+    top: 3000px;
+    width: 100%;
+    height: 1000px;
+}
+
+img{
+    max-width: 90%;
+    position: absolute;
+    left: -30px;
+    top: 35%;
+}
+
+/* poem 5 */
+
+.container5{
+    background-color: black;
+    color: white;
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 4000px;
+    left: 0px;
+}
+
+.box0{
+    color: red;
+    position: absolute;
+    left: 40%;
+    top: 449px;
+    /* animation-name: position0; */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* .box0:hover{
+    left: 50%;
+} */
+
+@keyframes position0 {
+    0% {
+        left: 38%;
+    }
+
+    50% {
+        left: 45%;
+    }
+    100% {
+        left: 38%;
+    }
+}
+
+
+.section1{
+    /* border: solid white 1px; */
+    position: absolute;
+    left: calc(51% - 200px);
+    top: 150px;
+    width: 250px;
+    height: 600px;
+    animation-name: position1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box1b{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1c{
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1d{
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1e{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1f{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1g{
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1h{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1i{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1j{
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1k{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+@keyframes position1 {
+    0% {
+        top: 250px;
+    }
+
+    50% {
+        top: 100px;
+    }
+    100% {
+        top: 250px;
+    }
+}
+
+
+.section2{
+    /* border: solid white 1px; */
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 250px;
+    height: 600px;
+    animation-name: position2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box2b{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2c{
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2d{
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2e{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2f{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2g{
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2h{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2i{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2j{
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2k{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+@keyframes position2 {
+    0% {
+        top: 100px;
+    }
+
+    50% {
+        top: 250px;
+    }
+    100% {
+        top: 100px;
+    }
+}
+
+/* poem 6 */
+
+.container6{
+    font-family: helvetica;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 5000px;
+    left: 0px;
+    /* border: solid black 1px; */
+}
+
+.line6a{
+    width: 300px;
+    height: 50px;
+    /* border: solid black 1px; */
+    position: absolute;
+    /* left: calc(50% - 150px); */
+    left: 690px;
+    top: 300px;
+    text-align: center;
+}
+
+.again{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: calc(50% - 150px);
+    top: 300px;
+    text-align: center;
+}
+
+#again2{
+    position: absolute;
+    left: 160.5px;
+    top: 5px;
+    transform: rotate(180deg);
+}
+#again{
+    color: red;
+    position: absolute;
+    top: -15px;
+    left: 198px;
+}
+
+.line6d{
+    width: 500px;
+    height: 50px;
+    /* border: solid black 1px; */
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 500px;
+    text-align: center;
+}
+
+/* .line1a{
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    left: calc(52.1% - 25px);
+    top: 300px;
+} */
+
+.line6b{
+    position: absolute;
+    left: 850.4px;
+    top: 303px;
+    transform: rotate(180deg);
+}
+
+.line6c{
+    position: absolute;
+    left: 888px;
+    top: 290px;
+    color: red;
+    /* animation-name: cloud;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+
+/* .line6c:hover{
+    left: 888px;
+    top: 100px;
+    opacity: 40%;
+} */

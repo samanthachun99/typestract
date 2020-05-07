@@ -1,0 +1,57 @@
+body{
+    font-family: helvetica;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.line1{
+    width: 300px;
+    height: 50px;
+    /* border: solid black 1px; */
+    position: absolute;
+    /* left: calc(50% - 150px); */
+    left: 690px;
+    top: 300px;
+    text-align: center;
+}
+
+.line2{
+    width: 500px;
+    height: 50px;
+    /* border: solid black 1px; */
+    position: absolute;
+    left: 580px;;
+    top: 500px;
+    text-align: center;
+}
+
+/* .line1a{
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    left: calc(52.1% - 25px);
+    top: 300px;
+} */
+
+.line1a{
+    position: absolute;
+    left: 850.4px;
+    top: 303px;
+    transform: rotate(180deg);
+}
+
+.line1b{
+    position: absolute;
+    left: 888px;
+    top: 290px;
+    /* animation-name: cloud;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+
+.line1b:hover{
+    left: 888px;
+    top: 100px;
+    opacity: 40%;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: garamond;
+}
+
+.poem{
+    font-size: 5px;
+    color: red;
+    width: 1500px;
+    position: absolute;
+    top: 48%;
+    left: calc(50% - 750px);
+    text-align: center;
+    /* text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #138c8c;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 50px;
+    text-underline-offset: -20px; */
+}
+
+.poem:hover{
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    color: white;
+}

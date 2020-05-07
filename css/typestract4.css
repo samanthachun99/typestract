@@ -1,0 +1,243 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.box0{
+    color: red;
+    position: absolute;
+    left: 40%;
+    top: 449px;
+    /* animation-name: pos0; */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* .box0:hover{
+    left: 50%;
+} */
+
+@keyframes pos0 {
+    0% {
+        left: 38%;
+    }
+
+    50% {
+        left: 45%;
+    }
+    100% {
+        left: 38%;
+    }
+}
+
+
+.section1{
+    /* border: solid white 1px; */
+    position: absolute;
+    left: calc(51% - 200px);
+    top: 150px;
+    width: 250px;
+    height: 600px;
+    animation-name: pos1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box1b{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1c{
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1d{
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1e{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1f{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1g{
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1h{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1i{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1j{
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1k{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+@keyframes pos1 {
+    0% {
+        top: 250px;
+    }
+
+    50% {
+        top: 100px;
+    }
+    100% {
+        top: 250px;
+    }
+}
+
+
+.section2{
+    /* border: solid white 1px; */
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    width: 250px;
+    height: 600px;
+    animation-name: pos2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box2b{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2c{
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2d{
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2e{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2f{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2g{
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2h{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2i{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2j{
+    position: absolute;
+    left: 180px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.box2k{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+@keyframes pos2 {
+    0% {
+        top: 100px;
+    }
+
+    50% {
+        top: 250px;
+    }
+    100% {
+        top: 100px;
+    }
+}
